@@ -25,9 +25,13 @@ Simply open node js and run the index.js file
 
 Listed steps below along with walkthrough video:
 
+Start node js, enter node index, answer the prompt questions and open the browser to see the resulted html page.
+
+https://user-images.githubusercontent.com/107738986/200714757-9bfbe5ef-adae-4e32-88f6-7e176569de8b.mp4
+
 ## CREDITS:
 
-I'd like to thank I would like to thank my instructor Kyle Davis, tutor Chris Baird, TA Ethan Cho,  Stack OVerflow, Github, W3 schools among other resources. for helping me with this project.
+I'd like to thank I would like to thank my instructor Kyle Davis, tutor Chris Baird, TA Ethan Cho,  Stack OVerflow, Github, W3 schools among other resources. for helping me with this project. I used Bulma CSS for the card templates!
 
 ## LICENSES:
 

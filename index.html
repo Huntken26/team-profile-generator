@@ -1,14 +1,4 @@
-//Importing my required classes
-// const Employee = require("./Employee");
-// const Manager = require("./Manager");
-// const Engineer = require("./Engineer");
-// const Intern = require("./Intern");
-// const html = require("js/generate.js");
 
-const fs = require("fs");
-const inquirer = require("inquirer");
-const generateHTML = function (answers) {
-  return `
   <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -95,41 +85,4 @@ const generateHTML = function (answers) {
       <script src="index.js"></script>
     </body>
   </html>
-  `
-}
-
-
-inquirer
-  .prompt([
-    {
-      type: "input",
-      message: "What's the name of this person?",
-      name: "name",
-    },
-    {
-      type: "input",
-      message: "What is their id:",
-      name: "id",
-    },
-    {
-      type: "input",
-      message: "What is their email?",
-      name: "email",
-    },
-    
-  ])
-  .then((answers) => {
-    const htmlpage = generateHTML(answers);
-
-    fs.writeFile("index.html", htmlpage, (err) =>
-      err ? console.log(err) : console.log("Successfully created html file!")
-    );
-  });
-
-
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+  
